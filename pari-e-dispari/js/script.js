@@ -16,7 +16,7 @@ function  rundomNumber(min, max){
 }
 function oddOrEven(a, b){
     let sum = a + b;
-    if(sum & 2 === 0){
+    if(sum % 2 === 0){
         return "pari";
     }
     return "dispari";
